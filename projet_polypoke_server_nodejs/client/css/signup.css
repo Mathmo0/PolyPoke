@@ -1,0 +1,81 @@
+
+img#logo_img {
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: #001527;
+    font-family:'Trebuchet MS';
+    background-image: url("/resources/background_2.png");  
+}
+
+label {
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size:x-large;
+    text-align:center;
+    color: white;
+}
+
+label span {
+    background-color: rgba(0, 0, 0, 0.716);
+}
+
+#signup_form {
+    color: white;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;   
+}
+input { 
+    font-family:'Trebuchet MS';
+    background: rgb(0, 63, 122);
+    border-color: rgb(0, 63 , 122);
+    color: white;
+    border-radius: 5px;
+    font-size:medium;
+}
+input.submit {
+    font-size:large;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-color: red;
+    border-radius: 10px;
+}
+
+button {
+    font-family:'Trebuchet MS';
+    font-size:large;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-color: red;
+    border-radius: 10px;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size:x-small;
+    font-weight: bold;
+    font-family:'Trebuchet MS'; 
+    padding: 1px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.599);
+}

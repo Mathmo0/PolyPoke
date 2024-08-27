@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/resources/POLYPOKE_icon.png">
+    <link rel="stylesheet" href="/client/css/homepage.css">
+    <title> POLYPOKE Client - Homepage</title>
+
+</head>
+
+<header>
+    <img id="logo_img" src="/resources/POLYPOKE_logo.png" alt="LOGO POLYPOKE" width="100" height="120"> 
+    <button onClick="disconnect()" id="log-off">Se déconnecter</button>
+    <button onclick="window.location.href = '/client/html/pokedex.html'" id="pokedex">Consulter mon pokedex</button>
+    <button onclick="window.location.href = '/client/html/profile.html'" id="profile">Consulter mon profil</button>
+    <button onclick="window.location.href = '/client/html/homepage.html'" id="homepage">Accueil</button>
+
+</header>
+
+<body>
+
+    <table id="forecast">
+        <tbody>
+            <tr>
+                <td id="info" colspan="2">
+                    <p>LA POKÉMÉTÉO</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="copyright" colspan="2">
+                    <p>Données récoltées grâce à OpenWeatherMap API</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="localdate" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td id="localtime" colspan="2">
+                </td>
+            </tr>
+            <tr></tr>
+                <td id="main" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td id="description" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td id="temperature" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td id="wind-speed" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td id="city"> 
+                </td>
+                <td id="lat_long">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+   <h5 id="hello_msg"> </h5>
+
+</body>
+
+
+<footer>
+    <img src="/resources/pokemon_sprites/p1.png" width="70" height="70">
+    <img src="/resources/pokemon_sprites/p2.png" width="70" height="70"> 
+    <img src="/resources/pokemon_sprites/p150.png" width="70" height="70"> 
+    <img src="/resources/pokemon_sprites/p4.png" width="70" height="70"> 
+    <img src="/resources/pokemon_sprites/p89.png" width="70" height="70"> 
+
+    <p> Développé par : Ronan FOURMONT, Hicham MOUSTAQIM, Mathis MOYSE, Clément NONCHER-GILLET et Killian SINGLA <br> 
+        Université de Sherbrooke (CAN, QC) & Polytech Tours (FRA) - IFT 717 Trimestre d'Automne 2022<br> </p>
+
+</footer>
+
+<script src="/client/js/homepage.js"></script>
+
+
+
+</html>

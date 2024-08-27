@@ -1,0 +1,32 @@
+ROUTES POSSIBLES
+
+// CREATE DRESSEUR
+// METHODE POST (x-www-forml-urlencoded)
+// @FormUrlEncoded
+// @POST/GET/PUT/DELETE("/your_endpoint") pour Android
+// key : mail, key = mdp, key = pseudo
+localhost:8080/DRESSEUR/CREATE
+---> renvoie fichier JSON avec type = " REUSSITE " et message = " Salut ... "
+---> renvoie fichier JSON avec type = " ERREUR " ('ERROR : Cette adresse email est déjà associée à un compte.') sinon
+
+
+// CONNECTION DRESSEUR
+// METHODE POST (x-www-forml-urlencoded)
+// @FormUrlEncoded
+// @POST/GET/PUT/DELETE("/your_endpoint") pour Android
+// key : mail, key = mdp
+localhost:8080/DRESSEUR/CONNECTION
+---> renvoie objet JSON dresseur si réussite
+---> renvoie "string" sinon
+
+// GET CURRENT FORECAST FROM DISTANT API
+// METHODE GET
+localhost:8080/W_API/:lat/:long
+---> renvoie objet JSON CurrentForecast si réussite
+---> renvoie status 404 si problème
+
+
+// GET ALL POKEMONS FROM SERVER
+// METHODE GET
+localhost:8080/POKEMON/
+---> renvoie objet JSON contenant tous les pokémons si réussite

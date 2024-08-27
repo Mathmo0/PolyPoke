@@ -1,0 +1,5 @@
+(GITIGNORE SUR NODE_MODULES DONC POUR QUE CA MARCHE CHEZ VOUS)
+
+npm install express //pour les routes
+npm install uuid //pour générer des ID
+npm install crypto //pour générer du SHA256

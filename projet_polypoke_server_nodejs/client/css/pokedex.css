@@ -1,0 +1,81 @@
+div {
+    width: 100%;    
+}
+
+body {
+    background: #001527;
+    background-image: url("/resources/background.jpg");
+    background-attachment: fixed;  
+    font-family:'Trebuchet MS';
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size:x-small;
+    font-weight: bold;
+    font-family:'Trebuchet MS'; 
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.599);
+    color: white;
+}
+
+table, th, td {
+    background-color: rgba(0, 0, 0, 0.364);
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: auto;
+    padding-left: auto;   
+    padding-right: auto;
+    padding-bottom: auto;             
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;  
+}
+
+
+#homepage, #profile, #pokedex {
+    text-align: center;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-family:'Trebuchet MS';
+    font-size:large;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 63, 122);
+    border-color: rgb(0, 63, 122);
+    border-radius: 10px;
+}
+
+#log-off {
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+    font-family:'Trebuchet MS';
+    font-size:large;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-color: red;
+    border-radius: 10px;
+}
+
+
+img.hidden {
+    filter: brightness(0%);
+}
+
+#info {
+    color: white;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p.hidden {
+    display: none;
+} 
